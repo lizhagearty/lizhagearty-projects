@@ -1,0 +1,10 @@
+/* Add to src/styles/Portfolio.css */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .image-animation {
+    animation: fadeIn 2s ease-in;
+  }
