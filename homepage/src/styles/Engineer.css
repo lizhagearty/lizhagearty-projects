@@ -5,8 +5,8 @@
   }
   
   .card {
-    width: 150px; /* Width and height should be the same for square cards */
-    height: 150px;
+    width: 300px; /* Width and height should be the same for square cards */
+    height: 50px;
     margin: 10px;
     background-color: #f9f9f9; /* Light background for the cards */
     border-radius: 8px; /* Rounded corners for the cards */
@@ -16,6 +16,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #11c3ff; 
+    text-decoration: none;
+  }
+
+  a {
+    color: #11c3ff; /* Light blue color for the links */
   }
   
   .card:hover {

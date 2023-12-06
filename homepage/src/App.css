@@ -1,3 +1,7 @@
+body {
+  background-color: #f844b0; /* A light pink color; adjust the hex as needed */
+}
+
 .App {
   text-align: center;
 }
@@ -39,7 +43,7 @@
 
 .title {
   font-family: 'Poppins', sans-serif; /* Replace with your chosen font */
-  color: #000000; /* A pink color; adjust the shade as desired */
+  color: #ffffff; /* A pink color; adjust the shade as desired */
   text-transform: uppercase; /* Gives a more modern, sleek look */
   letter-spacing: 1.5px; /* Adjust spacing between letters */
   font-weight: 600; /* Adjust the font weight as needed */
@@ -59,7 +63,7 @@
 }
 
 a {
-  color: #37c0ed; /* Light blue color for the links */
+  color: #8be2ff; /* Light blue color for the links */
 }
 
 .section-card {
