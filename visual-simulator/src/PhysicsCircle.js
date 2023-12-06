@@ -19,9 +19,16 @@ const PhysicsCircle = () => {
     world.gravity.y = 1;
 
     // Add boundaries (e.g., ground)
-    const ground = Matter.Bodies.rectangle(p5.width / 2, p5.height, p5.width, 20, { isStatic: true });
-    boundaries.push(ground);
-    Matter.World.add(world, ground);
+    // const ground = Matter.Bodies.rectangle(p5.width / 2, p5.height, p5.width, 20, { isStatic: true });
+    // boundaries.push(ground);
+    // Add walls
+  const wallOptions = { isStatic: true, render: { visible: false } }; // Walls won't be visible
+  let ground = Matter.Bodies.rectangle(p5.width / 2, p5.height - 200, p5.width, 20, wallOptions);
+  let ceiling = Matter.Bodies.rectangle(p5.width / 2, 0, p5.width, 20, wallOptions);
+  let leftWall = Matter.Bodies.rectangle(0, p5.height / 2, 20, p5.height, wallOptions);
+  let rightWall = Matter.Bodies.rectangle(p5.width, p5.height / 2, 20, p5.height, wallOptions);
+
+  Matter.World.add(world, [ground, ceiling, leftWall, rightWall]);
   };
 
   const draw = (p5) => {
@@ -47,7 +54,7 @@ const PhysicsCircle = () => {
 
   const mousePressed = (p5) => {
     // Create a circle body at the mouse position
-    let circle = Matter.Bodies.circle(p5.mouseX, p5.mouseY, 100, { restitution: 0.6 });
+    let circle = Matter.Bodies.circle(p5.mouseX, p5.mouseY, 33, { restitution: 0.6 });
     circles.push(circle);
     Matter.World.add(world, circle);
   };
