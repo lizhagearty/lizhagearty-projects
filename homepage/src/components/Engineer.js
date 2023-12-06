@@ -10,9 +10,9 @@ function Engineer() {
   return (
     <section id="Engineer">
           <div className="card-container">
-            <a className="card" href="https://spotify-app-ivory.vercel.app/">
+            <a className="card" href="https://lets-generate-a-playlist.vercel.app/">
               {/* <i className="icon fas fa-tools"></i>  */}
-              <p className="card-title">Give Me an Image, Get a Playlist</p>
+              <p className="card-title">Give Me an Word, Get a Playlist</p>
               </a>
             <div className="card">
             {/* <i className="icon fas fa-tools"></i>  */}
