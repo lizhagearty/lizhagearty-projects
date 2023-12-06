@@ -13,6 +13,11 @@ const RippleEffect = () => {
 
         const renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
+
+        // Set the background color of the canvas
+        const pinkColor = new THREE.Color(0xf844b0); // Color in hexadecimal
+        renderer.setClearColor(pinkColor, 1); // Setting the clear color to pink
+
         mountRef.current.appendChild(renderer.domElement);
 
         // Custom Shader Material
