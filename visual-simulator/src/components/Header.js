@@ -9,7 +9,8 @@ function Header() {
     <a href="https://lizhagearty.vercel.app/"><div style={{ padding: '20px' }}> 
        <i class="fas fa-star" style={{ color: 'white', fontSize: '24px' }}></i>
     </div></a>
-    <p>Click or hover to change visual</p>
+    {/* <div style={{ color: 'white', fontSize: '24px' }}>VISUAL </div> */}
+    <div style={{ color: 'white', fontSize: '24px' }}>press the screen to create circles (:</div>
     </>
   );
 }
