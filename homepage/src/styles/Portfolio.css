@@ -8,3 +8,38 @@
   .image-animation {
     animation: fadeIn 2s ease-in;
   }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* creates a responsive number of columns */
+    grid-auto-rows: 300px; /* sets the row height */
+    gap: 16px; /* space between items */
+  }
+  
+  .gallery-item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* ensures the image doesn't spill out of the container */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures the image covers the item area */
+    display: block;
+  }
+  
+  
+  /* Optional: hover effect to zoom image */
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 600px) {
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Fewer columns on smaller screens */
+      grid-auto-rows: 150px; /* Adjust row height on smaller screens */
+    }
+  }
+  

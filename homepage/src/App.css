@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  font-family: 'Poppins', sans-serif; /* Replace with your chosen font */
+  color: #000000; /* A pink color; adjust the shade as desired */
+  text-transform: uppercase; /* Gives a more modern, sleek look */
+  letter-spacing: 1.5px; /* Adjust spacing between letters */
+  font-weight: 600; /* Adjust the font weight as needed */
+  font-size: 2.5rem; /* Adjust size as needed */
+  text-align: center; /* Center the title if appropriate for your layout */
+  margin-bottom: 1rem; /* Space below the title */
+  /* Add text-shadow for a subtle highlight or glow effect, if desired */
+  /* text-shadow: 1px 1px 2px #e0aaff; */
+}
+
+.navigation-links {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #37c0ed; /* Light blue color for the links */
+}
+
+.section-card {
+  background-color: #fff; /* Or any color you prefer */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow for depth */
+  margin: 20px; /* Spacing around the card */
+  padding: 20px; /* Spacing inside the card */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.section-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover for interaction feedback */
+}
+

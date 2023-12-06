@@ -1,0 +1,34 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 150px; /* Width and height should be the same for square cards */
+    height: 150px;
+    margin: 10px;
+    background-color: #f9f9f9; /* Light background for the cards */
+    border-radius: 8px; /* Rounded corners for the cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 2rem; /* Size of the icon */
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
