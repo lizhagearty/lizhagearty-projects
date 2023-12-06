@@ -45,6 +45,9 @@ const Home = () => {
 
   return (
     <div style={pageStyle}>
+        <a style={{ padding: '20px' }} href="https://lizhagearty.vercel.app/"> 
+      <i class="fas fa-star" style={{ color: 'white', fontSize: '24px' }}></i>
+    </a>
       {token ? (
         <>
           <div style={cardStyle}>
@@ -65,7 +68,6 @@ const pageStyle = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  padding: '20px'
 };
 
 const cardStyle = {

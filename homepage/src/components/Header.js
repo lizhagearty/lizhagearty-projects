@@ -5,15 +5,9 @@ import '../styles/Header.css';
 
 function Header() {
   return (
-    // <header>
-    //   <nav>
-    //     {/* Navigation links */}
-    //     {/* <a href="#portfolio">Portfolio</a>
-    //     <a href="#about">About</a>
-    //     <a href="#contact">Contact</a> */}
-    //   </nav>
-    // </header>
-    <></>
+    <a href="/"><div style={{ padding: '20px' }}> 
+       <i class="fas fa-star" style={{ color: 'white', fontSize: '24px' }}></i>
+    </div></a>
   );
 }
 

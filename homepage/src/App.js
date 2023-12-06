@@ -15,7 +15,7 @@ function App() {
       <Header />
       <main>
         {/* <h3>LIZ HAGEARTY</h3> */}
-        <h3 className='title'>LIZ HAGEARTY <div className='navigation-links'><a href="#engineer">Engineer</a>  |  <a href="#artist">Artist</a> | <a href="#creator">Creator</a></div></h3>
+        <div className='title'>LIZ HAGEARTY <div className='navigation-links'><a href="#engineer">Engineer</a>  |  <a href="#artist">Artist</a> | <a href="#creator">Creator</a></div></div>
         <section id="engineer" className="section-card">
           {/* // Engineer */}
           <Engineer />
