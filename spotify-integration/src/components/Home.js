@@ -2,9 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PlaylistGenerator from './PlaylistGenerator';
-import Login from './Login'; // Assuming Login is your login button component
-
-
+import Login from './Login'; 
 
 const Home = () => {
   const navigate = useNavigate();
@@ -16,7 +14,7 @@ const Home = () => {
     localStorage.removeItem('spotifyAuthToken');
     navigate('/');
   };
-  
+
   useEffect(() => {
     if (token) {
       fetchSpotifyData();
