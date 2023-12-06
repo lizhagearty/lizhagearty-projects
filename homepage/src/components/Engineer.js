@@ -14,7 +14,7 @@ function Engineer() {
               {/* <i className="icon fas fa-tools"></i>  */}
               <p className="card-title">Give Me an Word, Get a Playlist</p>
               </a>
-            <a className="card" href="https://lets-generate-a-playlist.vercel.app/">
+            <a className="card" href="https://visual-simulator.vercel.app/">
             {/* <i className="icon fas fa-tools"></i>  */}
               <p className="card-title">Visual Simulator</p>
             </a>
