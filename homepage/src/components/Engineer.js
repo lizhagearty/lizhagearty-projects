@@ -14,10 +14,10 @@ function Engineer() {
               {/* <i className="icon fas fa-tools"></i>  */}
               <p className="card-title">Give Me an Word, Get a Playlist</p>
               </a>
-            <div className="card">
+            <a className="card" href="https://lets-generate-a-playlist.vercel.app/">
             {/* <i className="icon fas fa-tools"></i>  */}
-              <p className="card-title">App Two</p>
-            </div>
+              <p className="card-title">Visual Simulator</p>
+            </a>
             <div className="card">
             {/* <i className="icon fas fa-tools"></i>  */}
               <p className="card-title">App Three</p>

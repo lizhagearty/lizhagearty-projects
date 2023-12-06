@@ -12,7 +12,7 @@ const RippleEffect = () => {
         camera.position.z = 5;
 
         const renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setSize(mountRef.current.clientWidth, mountRef.current.clientHeight);
 
         // Set the background color of the canvas
         const pinkColor = new THREE.Color(0xf844b0); // Color in hexadecimal

@@ -5,9 +5,12 @@ import React from 'react';
 
 function Header() {
   return (
+    <>
     <a href="https://lizhagearty.vercel.app/"><div style={{ padding: '20px' }}> 
        <i class="fas fa-star" style={{ color: 'white', fontSize: '24px' }}></i>
     </div></a>
+    <p>Click or hover to change visual</p>
+    </>
   );
 }
 
