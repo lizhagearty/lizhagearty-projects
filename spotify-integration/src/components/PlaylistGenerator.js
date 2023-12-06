@@ -82,7 +82,7 @@ const PlaylistGenerator = ({ token }) => {
       <button onClick={createPlaylist} disabled={!keyword || playlistCreated} style={{ padding: '10px' }}>
         Create Playlist
       </button>
-      {playlistCreated && <p>Playlist created successfully!</p>}
+      {playlistCreated && <p style={{ color: 'white' }}>Playlist created successfully!</p>}
     </div>
   );
 };

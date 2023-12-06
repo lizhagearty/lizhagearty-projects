@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+/* Apply a background similar to the homepage */
+body {
+  background-color: #f844b0; /* Light pink background, adjust the color to match your homepage */
+  font-family: 'Your Font Family', sans-serif; /* The font you use on your homepage */
+}
+
+
+
+/* Style the buttons and input to match the homepage */
+button, input {
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for interactions */
+}
+
+button {
+  /* background-color: #fb99b5; Pink color for buttons, adjust as needed */
+  /* color: #fff; White text */
+  font-weight: bold;
+}
+
+input:focus {
+  outline: 1px solid rgb(142, 180, 193); /* Change to a white outline */
+  /* If you want to remove the outline entirely, you can use 'outline: none;' but for accessibility reasons, it is better to keep some visual indication of focus */
+}
+
+button:hover {
+  background-color: #f78fa7; /* Slightly darker pink on hover */
+  cursor: pointer;
+}
+
+
